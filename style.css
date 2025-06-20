@@ -1,0 +1,61 @@
+#countLabel{
+    display: block;  
+    font-size: 10em;
+    font-family: Helvetica;
+}
+#standardContainer{
+    text-align: center;
+}
+#counterContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(38, 117, 235);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.hideDivBtn{
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(38, 117, 235);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    
+}
+.buttons:hover{
+    background-color: rgb(4, 41, 248);
+}
+.customHeader{
+    text-align: left;
+    font-size: 1em;
+    font-family: 'Times New Roman';
+    color: rgb(38, 117, 235);
+}
+.standardDiv{
+    text-align: center;
+    background-color: rgb(51, 197, 136);
+    border-radius: 10px;
+    width: 30%;
+    padding: 5px 10px;
+}
+.divBtn{
+    background-color: rgb(38, 117, 235);
+    color: white;
+    width: 10%;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.divBtn:hover{
+    background-color: rgb(4, 41, 248);
+}
+#hiddenDiv {
+    display: none; /* Ensure it's hidden by default */
+    padding: 10px;
+}
